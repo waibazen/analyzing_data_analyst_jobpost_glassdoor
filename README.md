@@ -1,6 +1,6 @@
 
 # Data analyst Salary Estimator: Project Overview
-Created a model that estimates data analyst salaries (MAE ~ $ 19K) to help data analysts negotiate their payscale when they offer a job
+Created a model that estimates data analyst salaries (MAE ~ $ 17K) to help data analysts negotiate their payscale when they offer a job
 Scraped over 800 job descriptions from glassdoor using python and selenium
 Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model.
 
@@ -48,6 +48,7 @@ Column for description length
 Column for num of competitors
 ## EDA
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables.
+![alt text](https://github.com/waibazen/analyzing_data_analyst_jobpost_glassdoor/blob/master/eda.png "Logo Title Text 1")
 
 
 ## Model Building
@@ -66,4 +67,4 @@ The Random Forest model far outperformed the other approaches on the test and va
 
 <li>Random Forest : MAE = 19.05</li>
 
-<li>Ridge (lasso)Regression: MAE = 17.63<li>
+<li>Ridge (lasso)Regression: MAE = 17.63</li>
