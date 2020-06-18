@@ -48,6 +48,7 @@ After scraping the data, I needed to clean it up so that it was usable for our m
 <li>Column for num of competitors</li>
 ## EDA
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables.
+
 ![alt text](https://github.com/waibazen/analyzing_data_analyst_jobpost_glassdoor/blob/master/eda.png "Logo Title Text 1")
 
 
