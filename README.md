@@ -1,10 +1,9 @@
 
 # Data analyst Salary Estimator: Project Overview
-Created a model that estimates data analyst salaries (MAE ~ $ 17K) to help data analysts negotiate their payscale when they offer a job
-Scraped over 800 job descriptions from glassdoor using python and selenium
-Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model.
+1. Created a model that estimates data analyst salaries (MAE ~ $ 17K) to help data analysts negotiate their payscale when they offer a job
+2. Scraped over 800 job descriptions from glassdoor using python and selenium Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model.
 
-Code and Resources Used
+**Code and Resources Used**
 Python Version: 3.7
 Packages: pandas, numpy, sklearn, matplotlib, seaborn, selenium
 
